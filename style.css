@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+}
+nav{
+    background: PINK;
+    height: 30px;
+    width: 100%;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: first baseline;
+    padding: 30px 70px;
+}
+nav img{
+padding-left:0%;
+height: 90%;
+width: 30%;
+padding-left: 0px;
+}
+.logo{
+    font-size: 0px;
+    color: green;
+    padding: 10 20px;
+}
+.menu ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    padding: 10px 50px;
+}
+.menu ul li a:hover{
+background: white;
+}
